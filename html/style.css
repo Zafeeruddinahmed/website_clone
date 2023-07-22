@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    font-family: Arial;
+    
+}
+.navbar{
+    height:60px;
+    background-color:  #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url("qmmq.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 6px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    justify-content: space-evenly;
+    display:flex;
+    width: 620px;
+    height: 40px;
+    background-color: #0f1111;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FF9900;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+}
+span{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.lang-select{
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    font-size: 1rem;
+}
+.shopping{
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+}
+.symbol{
+    font-size: 35px;
+}
+.catogery{
+    font-size: 15px;
+    margin-left: 7px;
+}
+.navbar1{
+    height: 35px;
+    background-color:#222f2d;
+    color:#f3f3f3;
+    display: flex;
+    align-items: center;
+}
+.veer{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 0.9rem;
+    color:white;
+}
+.last{
+    text-decoration: none;
+    color:white;
+    justify-content:left;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-left: 410px;
+}
+.jkh{
+    background-image: url("hero_image.jpg");
+    height:500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.para{ 
+    display: flex;
+    height: 40px;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.para a{
+    color:#007185;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+}
+.box{
+    background-color: white;
+    border: 2px solid black;
+    height: 400px;
+    width:400px;
+    margin-left: 16px;
+    margin-top: 16px;
+    border: none;
+}
+.box_image{
+    height:300px;
+    width: 200px;
+    background-size: cover;
+}
+.margin{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.foot-panel1{
+    color:white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+}
+.foot-panel2{
+    color:white;
+    background-color: #252f3c;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+ul a{
+    display: block;
+}
+.foot-panel3{
+    color:white;
+    background-color: #37475a;
+    height:100px;
+    display: flex;
+  
+}
+.lastlogo{
+    background-image: url("qmmq2.jpeg");
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel{
+    background-color: white;
+    height: 80px;
+    display: block;
+    justify-content:center;
+    text-align:center;
+
+}
